@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Luis Martinez Barraza | Geomática y Geodesia</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #07111f;
+      color: white;
+      line-height: 1.6;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 22px 8%;
+      border-bottom: 1px solid rgba(255,255,255,0.12);
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: #dce6f2;
+      text-decoration: none;
+      margin-left: 25px;
+      font-size: 14px;
+    }
+
+    .hero {
+      min-height: 78vh;
+      display: flex;
+      align-items: center;
+      padding: 70px 10%;
+      background:
+        radial-gradient(circle at 75% 40%, #123c55 0%, transparent 35%),
+        linear-gradient(135deg, #07111f, #0b1f33);
+    }
+
+    .hero-content {
+      max-width: 850px;
+    }
+
+    .tag {
+      color: #51c4d3;
+      font-size: 15px;
+      letter-spacing: 2px;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: clamp(42px, 7vw, 76px);
+      line-height: 1.05;
+      margin-bottom: 18px;
+    }
+
+    .subtitle {
+      font-size: 22px;
+      color: #b9c8d8;
+      margin-bottom: 15px;
+    }
+
+    .areas {
+      color: #7fd6df;
+      margin-bottom: 35px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 14px 25px;
+      background: #20a4b8;
+      color: white;
+      text-decoration: none;
+      border-radius: 7px;
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 80px 10%;
+    }
+
+    .section h2 {
+      font-size: 34px;
+      margin-bottom: 30px;
+    }
+
+    .ai-card {
+      background: linear-gradient(135deg, #102b40, #0d2033);
+      border: 1px solid rgba(81,196,211,.4);
+      border-radius: 18px;
+      padding: 45px;
+      max-width: 900px;
+    }
+
+    .ai-card h3 {
+      color: #65d5df;
+      font-size: 30px;
+      margin-bottom: 5px;
+    }
+
+    .ai-card h4 {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .ai-card p {
+      color: #c6d2df;
+      max-width: 700px;
+      margin-bottom: 25px;
+    }
+
+    footer {
+      padding: 35px 10%;
+      border-top: 1px solid rgba(255,255,255,.1);
+      color: #8fa1b3;
+      font-size: 13px;
+    }
+
+    @media (max-width: 700px) {
+      nav .links {
+        display: none;
+      }
+
+      .hero {
+        padding: 60px 7%;
+      }
+
+      .section {
+        padding: 60px 7%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<nav>
+  <div class="logo">LUIS MARTINEZ</div>
+
+  <div class="links">
+    <a href="#inicio">Inicio</a>
+    <a href="#perfil">Perfil</a>
+    <a href="#docencia">Docencia</a>
+    <a href="#investigacion">Investigación</a>
+    <a href="#recursos">Recursos</a>
+  </div>
+</nav>
+
+
+<section class="hero" id="inicio">
+
+  <div class="hero-content">
+
+    <div class="tag">
+      INGENIERÍA · DOCENCIA · INVESTIGACIÓN
+    </div>
+
+    <h1>
+      Luis Martinez<br>
+      Barraza
+    </h1>
+
+    <div class="subtitle">
+      Ingeniero Geógrafo · MBA · Docente Universitario
+    </div>
+
+    <div class="areas">
+      Geomática · Geodesia · GNSS · Topografía · Fotogrametría · Cartografía · GIS · Teledetección
+    </div>
+
+    <a class="button" href="#geodesia">
+      Conocer GEODESIA IA
+    </a>
+
+  </div>
+
+</section>
+
+
+<section class="section" id="geodesia">
+
+  <h2>Docencia + Inteligencia Artificial</h2>
+
+  <div class="ai-card">
+
+    <h3>GEODESIA IA</h3>
+
+    <h4>
+      Docente Virtual · Mg. Ing. Luis Martinez
+    </h4>
+
+    <p>
+      Asistente académico especializado en Geodesia. Diseñado para
+      complementar el aprendizaje de sistemas de referencia, geodesia
+      geométrica, GNSS, cálculos geodésicos, procesamiento y
+      posprocesamiento de información geoespacial.
+    </p>
+
+    <a class="button" href="#">
+      Próximamente
+    </a>
+
+  </div>
+
+</section>
+
+
+<footer>
+  © 2026 Luis Martinez Barraza · Lima, Perú
+</footer>
+
+</body>
+</html>
